@@ -8,28 +8,28 @@ import java.util.List;
 
 public class Civilization {
     @JsonProperty("Id")
-    public Integer id;
+    private Integer id;
 
     @JsonProperty("Name")
-    public String name;
+    private String name;
 
     @JsonProperty("Expansion")
-    public String expansion;
+    private String expansion;
 
     @JsonProperty("ArmyType")
-    public String armyType;
+    private String armyType;
 
     @JsonProperty("UniqueUnit")
-    public List<String> uniqueUnit;
+    private List<String> uniqueUnit;
 
     @JsonProperty("UniqueTech")
-    public List<String> uniqueTech;
+    private List<String> uniqueTech;
 
     @JsonProperty("TeamBonus")
-    public String teamBonus;
+    private String teamBonus;
 
     @JsonProperty("CivilizationBonus")
-    public List<String> civilizationBonus;
+    private List<String> civilizationBonus;
 
     @JsonGetter("Id")
     public Integer getId() {
